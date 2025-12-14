@@ -195,9 +195,7 @@ export default function Home() {
                 <div className="inline inline text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                   Tagline
                 </div>
-                <h2 className="font-serif text-3xl text-balance">
-                  Headline with USP related to how your product or service works
-                </h2>
+                <h2 className="font-serif text-3xl text-balance">Your mental health journey is unique to you</h2>
                 <Button variant="outline">Learn more</Button>
               </div>
 
