@@ -21,7 +21,7 @@ export default function Home() {
             </a>
           </div>
           <div className="absolute left-1/2 -translate-x-1/2">
-            <img src="/images/logo.png" alt="Logo" className="h-8" />
+            <img src="/images/serenity-logo-transparent.png" alt="Serenity Mental Wellness Platform" className="h-24" />
           </div>
           <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
             Start your journey
@@ -124,22 +124,21 @@ export default function Home() {
             <div className="space-y-6">
               <h3 className="font-serif text-3xl text-balance">An AI That Listens</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Chat with an AI specifically designed and structured from us to feel like. It wasn't trained. Everyone
-                feels what they do. We're not here to pretend we can fix it. We're here to guide you genuinely and
-                purposefully.
+                Our AI quietly learns from your check-ins and in-game choices to understand how you're feeling. It
+                doesn't judge or diagnose it simply adapts the experience to support you, gently and respectfully.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">Feels natural, not pre-set.</span>
+                  <span className="text-sm">Feels personal, not generic</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">Not a bot impersonating a human.</span>
+                  <span className="text-sm">Reduces emotional effort</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">It's not info dumped, so you'll never see a list.</span>
+                  <span className="text-sm">Builds self-awareness over time</span>
                 </li>
               </ul>
             </div>
@@ -164,24 +163,24 @@ export default function Home() {
             <div className="space-y-6">
               <h3 className="font-serif text-3xl text-balance">A Game That Grows With You</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Try games world-designed based on your emotional journey. As you play, your environment within evolves.
-                What's important is that you feel good. With Zara not only is your process in this journal of a game.
+                The game world changes based on your emotional journey. As you play, your environment evolves reflecting
+                calm, growth, and balance at your own pace, without pressure or goals to chase.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">World changes based on how you're actively feeling.</span>
+                  <span className="text-sm">Encourages emotional expression without words</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">Create a level at any point out of your entries.</span>
+                  <span className="text-sm">Creates a sense of progress without stress</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm">Builds a visible enrichment, clerical yet real and gritty.</span>
+                  <span className="text-sm">Builds a positive emotional relationship with play</span>
                 </li>
               </ul>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Learn more</Button>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Explore game</Button>
             </div>
           </div>
         </div>
@@ -193,8 +192,8 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="space-y-6">
-                <div className="inline-block text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                  TAGLINE
+                <div className="inline inline text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                  Tagline
                 </div>
                 <h2 className="font-serif text-3xl text-balance">
                   Headline with USP related to how your product or service works
@@ -211,8 +210,8 @@ export default function Home() {
                     <div>
                       <h4 className="font-semibold mb-1">Play a Calm Game</h4>
                       <p className="text-sm text-muted-foreground">
-                        Our platform platform aims to collaborate to help you grow and get where you are, with the
-                        various steps, values, or makes that..
+                        You explore a gentle game designed to help you relax and reflect, with no pressure, scores, or
+                        deadlines.
                       </p>
                     </div>
                   </div>
@@ -222,10 +221,10 @@ export default function Home() {
                       2
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">It's Learns Quality</h4>
+                      <h4 className="font-semibold mb-1">AI Learns Quietly</h4>
                       <p className="text-sm text-muted-foreground">
-                        As simply as "hey" you'll be able to get started, and it's pretty straight forward. Simply
-                        answer the prompts you're prompted before being directed.
+                        As you play and check in, the AI notices patterns in your mood and behavior always respectfully
+                        and in the background.
                       </p>
                     </div>
                   </div>
@@ -237,8 +236,8 @@ export default function Home() {
                     <div>
                       <h4 className="font-semibold mb-1">Your Experience Adapts</h4>
                       <p className="text-sm text-muted-foreground">
-                        The game is a journey of yours and is not one that will just pretend. Your game having that
-                        option brings.
+                        The game and interface adjust to match how you're feeling, from colors and pace to suggested
+                        activities.
                       </p>
                     </div>
                   </div>
@@ -248,10 +247,10 @@ export default function Home() {
                       4
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">A Personal Roadmap</h4>
+                      <h4 className="font-semibold mb-1">A Personal Dashboard</h4>
                       <p className="text-sm text-muted-foreground">
-                        Most important is what you say. Here, what you say matters, and remember that we're here to help
-                        you with something meaningful which just isn't.
+                        Your emotions and habits come together in a simple, calming dashboard that helps you understand
+                        yourself over time.
                       </p>
                     </div>
                   </div>
@@ -264,7 +263,7 @@ export default function Home() {
 
       {/* Newsletter Section */}
       <section className="container mx-auto px-4 py-16 bg-white">
-        <div className="max-w-2xl mx-auto text-center space-y-6">
+        <div className="max-w-2xl mx-auto text text space-y-6">
           <h2 className="font-serif text-3xl">Join our newsletter</h2>
           <p className="text-muted-foreground">
             Join our mailing of folks to stay up to date for announcements, new developments, or updates to come for our
