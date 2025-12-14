@@ -7,24 +7,24 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="bg-foreground text-background">
+      <nav className="bg-background border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-8">
-            <span className="font-serif text-2xl italic">Zara</span>
-            <div className="hidden md:flex gap-6">
-              <a href="#" className="text-sm hover:text-primary transition-colors">
-                About Us
-              </a>
-              <a href="#" className="text-sm hover:text-primary transition-colors">
-                Game
-              </a>
-              <a href="#" className="text-sm hover:text-primary transition-colors">
-                Impact
-              </a>
-            </div>
+          <div className="flex gap-8">
+            <a href="#" className="text-sm hover:text-primary transition-colors">
+              About us
+            </a>
+            <a href="#" className="text-sm hover:text-primary transition-colors">
+              Game
+            </a>
+            <a href="#" className="text-sm hover:text-primary transition-colors">
+              Impact
+            </a>
           </div>
-          <Button variant="secondary" size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Download Game
+          <div className="absolute left-1/2 -translate-x-1/2">
+            <img src="/images/logo.png" alt="Logo" className="h-8" />
+          </div>
+          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
+            Start your journey
           </Button>
         </div>
       </nav>
@@ -388,6 +388,11 @@ export default function Home() {
             <div>
               <h5 className="font-semibold mb-3">Column Five</h5>
               <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-foreground transition-colors">
+                    Link Name
+                  </a>
+                </li>
                 <li>
                   <a href="#" className="hover:text-foreground transition-colors">
                     Link Name
