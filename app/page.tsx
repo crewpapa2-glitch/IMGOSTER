@@ -53,21 +53,22 @@ export default function Home() {
                 Learn more
               </Button>
             </div>
-
-            {/* Hero Illustration */}
-            <div className="relative mt-12">
-              <img
-                src="/images/image.png"
-                alt="Two people having a conversation - one in a yellow shirt and one in an orange polka dot dress, with plants around them"
-                className="w-full max-w-3xl mx-auto"
-              />
-            </div>
           </div>
         </div>
       </section>
 
+      <section className="bg-white">
+        <div className="w-full">
+          <img
+            src="/images/image.png"
+            alt="Two people having a conversation - one in a yellow shirt and one in an orange polka dot dress, with plants around them"
+            className="w-full"
+          />
+        </div>
+      </section>
+
       {/* Our Values Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16 bg-white">
         <h2 className="font-serif text-3xl md:text-5xl text-center mb-12">Our Values</h2>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -114,7 +115,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16 bg-white">
         <h2 className="font-serif text-3xl md:text-5xl text-center mb-16">Features</h2>
 
         <div className="space-y-24 max-w-6xl mx-auto">
@@ -262,7 +263,7 @@ export default function Home() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16 bg-white">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="font-serif text-3xl">Join our newsletter</h2>
           <p className="text-muted-foreground">
@@ -279,7 +280,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t py-12">
+      <footer className="border-t py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-8">
             <div>
