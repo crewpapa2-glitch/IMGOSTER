@@ -143,7 +143,11 @@ export default function Home() {
               </ul>
             </div>
             <div className="order-first md:order-last">
-              <img src="/images/3.jpeg" alt="Person interacting with AI interface" className="w-full rounded-2xl" />
+              <img
+                src="/images/femme.png"
+                alt="Woman in red polka dot dress interacting with AI interface showing brain icon"
+                className="w-full rounded-2xl"
+              />
             </div>
           </div>
 
@@ -151,8 +155,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="/images/4.jpeg"
-                alt="Person working on a laptop with creative graphics"
+                src="/images/homme.png"
+                alt="Man with beard working on a laptop with creative graphics and landscape painting"
                 className="w-full rounded-2xl"
               />
             </div>
